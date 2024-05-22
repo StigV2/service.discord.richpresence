@@ -1,0 +1,25 @@
+<!--
+#      _   _                       
+#  ___| |_(_) __ _ _ __ ___   __ _ 
+# / __| __| |/ _` | '_ ` _ \ / _` |
+# \__ \ |_| | (_| | | | | | | (_| |
+# |___/\__|_|\__, |_| |_| |_|\__,_|
+#            |___/                 
+# Original by Hiumee, Rewritten & Maintained by Stigma.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.discord.richpresence"
+  name="Discord Rich Presence"
+  version="1.0.0"
+  provider-name="Stigma">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.service" library="default.py" />
+<extension point="xbmc.addon.metadata">
+  <platform>all</platform>
+  <source>https://github.com/StigV2/service.discord.richpresence</source>
+</extension>
+</addon>
